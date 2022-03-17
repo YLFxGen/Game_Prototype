@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ece0ad1af1c7fd54fb36bea83e99c074, type: 3}
+  m_Name: Rare Timber
+  m_EditorClassIdentifier: 
+  itemName: Rare Timber
+  itemDesription: A kind of wood that is widely used in buildings.
+  imagePath: RareTimber
+  itemImage: {fileID: 21300000, guid: bed14bab81e80c6449189cca97412c51, type: 3}
+  stack: 8
+  sellPrice: 5
+  purchasePrice: 8
+  itemLevel: 0
+  isUsable: 0
+  isUnique: 0
+  thisEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
